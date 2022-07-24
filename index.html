@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- links -->
     <link rel="stylesheet" href="./css/styles.css"
     <link rel="icon" href="./favicons/favicon-16x16.png">
+   
+        <!-- main js --> 
+    <script src="./js/script.js"></script>
 
     <title>Pokédex</title>
 </head>
 <body>
 
     <main>
-        <img src="https://raw.githubsercontent.com/PokeAPI/sprites/master/
-        sprites/pokemon/versions/generation-v/black-white/animated/6.gif" 
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
         alt="pokemon" class="pokemon__image">
 
         <h1 class="pokemon__data">
@@ -21,7 +24,7 @@
             <span class="pokemon__name">sharizard</span>
         </h1>
 
-        <form>
+        <form class="form">
             <input 
             type="search"
             class="input__search"
@@ -29,7 +32,12 @@
             required
             />
         </form>
-        
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+
         <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
 
     </main>
